@@ -1,1 +1,1 @@
-# resipe
+# resipe-blog
