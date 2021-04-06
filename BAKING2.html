@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Blog Template</title>
+    <style>
+        body{
+            background: url(https://images.pexels.com/photos/2773606/pexels-photo-2773606.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Times New Roman', Times, serif;
+        }
+        img {
+            width: 100%;
+        }
+        a {
+            text-decoration: none;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        div.warp {
+            width: 992px;
+            margin: auto;
+            background-color:#f3f3f3;
+            overflow: hidden;
+        }
+        div.topnav{
+            background-color: #DA463A;
+            overflow: hidden;
+        }
+        nav.leftNav {
+            float: left;
+            
+        }
+        nav.leftNav li{
+            display: inline-block;
+            padding: 10px 16px;
+        }
+        nav.leftNav a{
+            color: white;
+            text-decoration: none;
+        }
+        nav.rightNav {
+            float: right;
+        }
+        nav.rightNav li{
+            display: inline-block;
+            padding: 10px 16px;
+        }
+        nav.rightNav a{
+            color: white;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 50px;
+            margin-left: 16px;
+        }
+        nav.mainNav{
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+        }
+        nav.mainNav li{
+            display: inline-block;
+            padding: 10px 16px;
+        }
+        nav.mainNav a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        li.active {
+            background-color:#DA463A;   
+        }
+        li.active a {
+            color: white;
+        }
+        div.title-img {
+            background: url(https://www.seriouseats.com/2021/03/20210228-basque-cheesecake-vicky-wasik-13.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 100px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        div.blog-title {
+            background: white;
+            margin: 80px;
+            padding: 60px;
+        }
+        div.blog-title p {
+            font-size: 16px;
+        }
+        div.blog-title h4 {
+            font-size: 20px;
+        }
+        div.blog-title img {
+            width: 100%;
+            height: 450px;
+        }
+        footer{
+            background-color: #DA463A;
+            padding: 10px 0px;
+            text-align: center;
+            color: white;
+        }
+        span.website {
+            color:rgb(255, 251, 0);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="warp">
+        <header>
+            <div class="topnav">
+                <nav class="leftNav">
+                    <ul>
+                        <li><a href="#">Layouts</a></li>
+                        <li><a href="#">Typography</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </nav>
+                <nav class="rightNav">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <a href="index.html">
+                <h1>Resipe</h1>
+            </a>
+            <nav class="mainNav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="pasta.html">PASTA</a></li>
+                    <li><a href="BEANS%20AND%20PULSES.html">BEANS AND PULSES</a></li>
+                    <li><a href="SPONSORED.html">SPONSORED</a></li>
+                    <li><a href="BAKING.html">BAKING</a></li>
+                    <li><a href="ITALIAN.html">ITALIAN</a></li>
+                    <li class="active"><a href="BAKING2.html">BAKING</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="bodyStyle">
+            <div class="title-img">
+                <h2>Basque Cheesecake Recipe</h2>
+            </div>
+            <div class="blog-title">
+                <p>This cake is a deeply caramelized cousin of American cheesecake, inspired by the famous “tarta de queso” by Santiago Riviera of La Viña in Donostia-San Sebastián, Spain. Its defining features are a burnt top and barely set center, the result of baking the eggy cream cheese batter at a very high temperature. To achieve the perfect balance between the deeply browned top and creamy center, we chill the batter after mixing, and sprinkle the top with sugar right before the cake goes into a 450-degree oven.
+
+                    Once the outer edges just begin to set, we crank the oven up to 500 degrees for the final 20 minutes of baking. This blast of heat gives the cheesecake its iconic burnished top, and also browns the bottom, giving what is otherwise a crustless cake a crust of sorts. The pleasant bitterness of the barely-set burnt top gives way to the sweet richness of the custardy center. Serve this with a glass of sherry for the perfect end to a meal, or just as a stand-alone treat.</p>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright © 2021. Created by <a href="https://leonislam.xyz" target="_blank"><span class="website">Leon Islam</span></a></p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Blog Template</title>
+    <style>
+        body{
+            background: url(https://images.pexels.com/photos/4577179/pexels-photo-4577179.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Times New Roman', Times, serif;
+        }
+        a {
+            text-decoration: none;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        img {
+            width: 100%;
+        }
+        div.warp {
+            width: 992px;
+            margin: auto;
+            background-color:#f3f3f3;
+        }
+        div.topnav{
+            background-color: #DA463A;
+            overflow: hidden;
+        }
+        nav.leftNav {
+            float: left;
+            
+        }
+        nav.leftNav li{
+            display: inline-block;
+            padding: 10px 16px;
+        }
+        nav.leftNav a{
+            color: white;
+            text-decoration: none;
+        }
+        nav.rightNav {
+            float: right;
+        }
+        nav.rightNav li{
+            display: inline-block;
+            padding: 10px 16px;
+        }
+        nav.rightNav a{
+            color: white;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 50px;
+            margin-left: 16px;
+        }
+        nav.mainNav{
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+        }
+        nav.mainNav li{
+            display: inline-block;
+            padding: 10px 16px;
+        }
+        nav.mainNav a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        li.active {
+            background-color:#DA463A;   
+        }
+        li.active a {
+            color: white;
+        }
+        div.bodyWarp {
+            padding: 50px 16px;
+            overflow: hidden;
+        }
+        
+        div.first {
+            width: 450px;
+            background-color: white;
+            float: left;
+        }
+        div.second {
+            width: 450px;
+            background-color: white;
+            float: right;
+        }
+        div.box {
+            padding: 10px 10px 10px 20px;
+        }
+        div.box p {
+            color: #30A2CC;
+        }
+        span.price {
+            float: right;
+            color: #DA463A;
+        }
+        p.desc {
+            color: #333!important;
+        }
+        footer{
+            background-color: #DA463A;
+            padding: 10px 0px;
+            text-align: center;
+            color: white;
+        }
+        span.website {
+            color:rgb(255, 251, 0);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="warp">
+        <header>
+            <div class="topnav">
+                <nav class="leftNav">
+                    <ul>
+                        <li><a href="#">Layouts</a></li>
+                        <li><a href="#">Typography</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </nav>
+                <nav class="rightNav">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <a href="index.html">
+                <h1>Resipe</h1>
+            </a>
+            <nav class="mainNav">
+                <ul>
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="pasta.html">PASTA</a></li>
+                    <li><a href="BEANS%20AND%20PULSES.html">BEANS AND PULSES</a></li>
+                    <li><a href="SPONSORED.html">SPONSORED</a></li>
+                    <li><a href="BAKING.html">BAKING</a></li>
+                    <li><a href="ITALIAN.html">ITALIAN</a></li>
+                    <li><a href="BAKING2.html">BAKING</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="bodyStyle">
+            <div class="bodyWarp">
+                <div class="first">
+                    <div class="img">
+                        <a href="pasta.html">
+                            <img src="https://www.seriouseats.com/2020/03/20200312-starch-madness-pasta-flatlay-featured-image-625x469.jpg" alt="pasta">
+                        </a>
+                    </div>
+                    <div class="box">
+                        <p>PASTA <span class="price">$10</span></p>
+                        <h2>Our Favorite Pasta Shapes</h2>
+                        <p class="desc">We always have opinions, especially when it come to pasta.</p>
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="img">
+                        <a href="BEANS%20AND%20PULSES.html">
+                            <img src="https://www.seriouseats.com/2021/03/20210301-pasta-e-ceci-andrew-janjigian-27-625x469.jpg" alt="pasta">
+                        </a>
+                    </div>
+                    <div class="box">
+                        <p>BEANS AND PULSES <span class="price">$20</span></p>
+                        <h2>Pasta e Ceci Is Italian Comfort Food at its Best</h2>
+                        <p class="desc">Part pasta, part stew, and wholly comforting.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bodyWarp">
+                <div class="first">
+                    <div class="img">
+                        <a href="SPONSORED.html">
+                            <img src="https://www.seriouseats.com/2020/02/20200114-nduja-recipes-3-625x469.jpg" alt="pasta">
+                        </a>
+                    </div>
+                    <div class="box">
+                        <p>SPONSORED <span class="price">$2</span></p>
+                        <h2>Quick, Simple, and Downright Comforting Dishes for Busy Weeknights</h2>
+                        <p class="desc">Our favorite go-to recipes using Mutti® Tomatoes.</p>
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="img">
+                        <a href="BAKING.html">
+                            <img src="https://www.seriouseats.com/2021/03/20210330-Choereg-AndrewJanjigian-5-1-625x469.jpg" alt="pasta">
+                        </a>
+                    </div>
+                    <div class="box">
+                        <p>BAKING <span class="price">$5</span></p>
+                        <h2>How to Make Choreg, Armenia's Eggy, Aromatic Easter Bread</h2>
+                        <p class="desc">A braided bread for your Easter table.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bodyWarp">
+                <div class="first">
+                    <div class="img">
+                        <a href="ITALIAN.html">
+                            <img src="https://www.seriouseats.com/2020/03/20200224-carretteira-pasta-vicky-wasik-21-625x469.jpg" alt="pasta">
+                        </a>
+                    </div>
+                    <div class="box">
+                        <p>ITALIAN <span class="price">$8</span></p>
+                        <h2>Essential Pantry Staples for Better Pasta</h2>
+                        <p class="desc">The ingredients we always have on hand to bring flavor, texture, and body to our favorite pasta dishes.</p>
+                    </div>
+                </div>
+                <div class="second">
+                    <div class="img">
+                        <a href="BAKING2.html">
+                            <img src="https://www.seriouseats.com/2021/03/20210228-basque-cheesecake-vicky-wasik-13-625x469.jpg" alt="pasta">
+                        </a>
+                    </div>
+                    <div class="box">
+                        <p>BAKING <span class="price">$12</span></p>
+                        <h2>Fire Up Your Oven for “Burnt” Basque Cheesecake</h2>
+                        <p class="desc">Basque cheesecake boasts a creamy center and a deeply caramelized top and bottom.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright © 2021. Created by <a href="https://leonislam.xyz" target="_blank"><span class="website">Leon Islam</span></a></p>
+        </footer>
+    </div>
+</body>
+</html>
