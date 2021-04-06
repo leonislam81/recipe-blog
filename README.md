@@ -1,1 +1,1 @@
-# resipe-blog
+# recipe-blog
